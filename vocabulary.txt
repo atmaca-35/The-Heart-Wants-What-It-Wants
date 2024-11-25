@@ -1,0 +1,176 @@
+ab:su
+abıhayat:beŋgilik suyu
+absürdist:abukçu
+absürdizm:abukçuluk
+absürt:abuk
+akıl:es
+asimptot:düşüşmez
+cemaat:öğür
+çeşitli:türlü
+estetik:uz
+huy:kılınç
+felsefe:sakış
+hafıza:estelik
+her:değme
+hücre:giz
+ilah:taŋrı
+ilahi:taŋrıdam
+kitap:biti
+kitaplık:bitilik
+kütüphane:biti evi
+mühürdar:damgacı
+anahtar:açkı
+anahtarlık:açkılık
+lezbiyen:sürtük
+mantık:eseme
+ders:boşut
+cevap:yanıt
+numune:gip
+organ:sın
+ötken:tarih
+parça:ülü
+parçacık:ülücük
+resim:beyiz
+rüzgâr:yel
+sanat:uzluk
+sanatkâr:uzmaç
+tuvalet:ayak yolu
+yabancı:yad
+insan:yalŋık
+humanist:yalŋıkçı
+humanizm:yalŋıkçılık
+fark:ayırt
+logos:sav
+tabiat:yaraş
+naturalist:yaraşçı
+naturalizm:yaraşçılık
+faiz:ösüm
+libido:üyü
+ütopya:düşre
+sıhhat:dirlik
+canlı:diri
+adalet:gönülük
+kıyamet:gönülük günü
+adil:gönü
+meta:satı
+imtihan:sınağı
+mühür:damga
+fizik:yaraş savı
+sual:soru
+ateş:od
+cezaevi:kınlık
+ceza:kın
+şey:neŋ
+kelime:sözcük
+makam:orun
+pay:üleş
+hazır:anık
+halk:boyun
+cumhuriyet:boyunluk
+hisse:ülüş
+mal:ey
+borç:alım
+fikir:sakınç
+zehir:ağı
+hikmet:bili
+adam:er
+muktedir:erkli
+temiz:arı
+bağrur:başlı
+emir:buyruk
+şafak:taŋ
+fena:yavuz
+şahsi:özlük
+nasıl:nite
+ne kadar:nice
+mahiyet:nitelik
+kemiyet:nicelik
+ziynet:bezek
+komün:üleşim
+komünist:üleşimci
+komünizm:üleşimcilik
+rasyonalist:usçu
+rasyonalizm:usçuluk
+samimi:ulaşık
+solar:gündem
+günah:yazık
+dünya:él gün
+vatan:yer su
+zerdali:sarı erik
+realist:gerçekçi
+realizm:gerçekçilik
+isim:ad
+nominalist:adcı
+nominalizm:adcılık
+teist:inançlı
+teizm:inançlılık
+sosyalist:öğürcü
+sosyalizm:öğürcülük
+zengin:bay
+zenginlik:baylık
+çilingir:açtacı
+çilingirlik:açtacılık
+kadar:deği
+mağrur:güvez
+sürat:tavrak
+hız:tavuş
+izdivaç:güyen
+hasis:suk
+adamcık:erŋek
+kepez:götkü
+duvar:dam
+saf:som
+sırf:salt
+ego:ben
+kategori:ulam
+rey:oy
+sade:yalıŋ
+siyah:kara
+beyaz:ak
+zanaat:eylik
+zulüm:ezinç
+netice:sonuç
+tümor:ur
+iktidar:erk
+huzur:erinç
+zeka:aŋlak
+kına:boya
+şarap:sücü
+ayna:gözŋü
+sema:gök
+kelam:söz
+tabii:yaraştam
+devlet:él
+haymatlos:élsiz
+hayal:düş
+rüya:dül
+fasikül:biticik
+hayat:yaraştam
+tehlike:aya
+avangart:başat
+organizma:sınlık
+ebedi:beŋgi
+amel:işleği
+meşgale:iş güç
+temaşa et-:iyer-
+kainat:yaşağı
+misal:okşağı
+hazırla-:anıkla-
+kâmil:dölek
+ilkah et-:dölle-
+egzistansiyalizm:varoluşçuluk
+egzistansiyalist:varoluşçu
+doktrin:öğreti
+video:oynatı
+zihin:uku
+huri:geŋ gözlü
+refah:geŋlik
+mekan:bark
+kafa:baş
+lisan:dil
+mevcudiyet:bolu
+izah et-:ukut-
+idrak et-:uk-
+talim et-:boşur-
+kayıtsız:boş
+vakum:boşluk
