@@ -9,34 +9,26 @@
   font-weight: bold;
 }
 
-body::before {
-  content: '';
-  position: absolute;
-  bottom: 0; /* Start from the bottom of the screen */
-  left: 0;
-  width: 100%; /* Cover the entire width */
-  height: 40%; /* Cover 40% of the screen height */
-  background: linear-gradient(to top, black, transparent); /* Gradient effect */
-  pointer-events: none; /* Allow interactions with elements underneath */
-  z-index: 1; /* Ensure it sits above the content but below other overlays */
-}
-
 body {
-  position: relative; /* Required for positioning the pseudo-element */
-  background: linear-gradient(to bottom, #151515, #000000);
-  background-attachment: fixed; /* Arka plan sabitlenir */
-  background-size: cover; /* Arka planın ekranı kaplamasını sağlar */
+  background-color: #151515;
   font-family: Poppins;
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100vh;
   margin: 0;
-  min-height: 100vh;
-  overflow-y: hidden; /* Dikey kaydırmayı kapatır */
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* İçerik ortalanıyor */
+  align-items: center;
+  height: 100vh; /* Görüntüleme alanını kaplıyor */
+  margin: 0;
+  padding: 10px; /* Kenarlıklar için */
+  background-color: #151515;
+  font-family: Poppins, sans-serif;
+  overflow-y: auto; /* Taşma durumunda kaydırma */
 }
-
-
 
 input {
   width: 280px;
@@ -49,6 +41,9 @@ input {
   border-radius: 0 0 10px 10px;
   padding-left: 15px;
   padding-right: 15px;
+  width: 90%; /* Küçük ekranlarda daha iyi uyum sağlar */
+  max-width: 400px; /* Daha büyük ekranlarda sınır */
+  margin-top: 20px;
 }
 
 input:focus{
@@ -70,23 +65,8 @@ input:focus::placeholder {
   color: #f0f0f0;
   width: 320px;
   text-align: center;
-  max-height: calc(100vh - 100px); /* Sonuç bölgesinin maksimum yüksekliğini ayarlar */
-  
-}
-/* Mobil cihazlar için */
-@media screen and (max-width: 768px) {
-  body {
-    align-items: stretch; /* İçeriğin daha düzgün hizalanmasını sağlar */
-    padding: 10px;
-  }
-
-  input {
-    width: 100%; /* Giriş kutusunun ekran genişliğine uygun olması */
-    box-sizing: border-box; /* Kenar boşluklarını hesaba kat */
-  }
-
-  #result {
-    width: 100%; /* Sonuç kutusunun ekran genişliğine uygun olması */
-    margin-top: 15px; /* Daha iyi boşluk görünümü için */
-  }
+  width: 100%; /* Genişlik ekranın tamamını kaplıyor */
+  max-width: 400px; /* Daha büyük ekranlarda sınır */
+  padding: 10px; /* İçerik ve kenarlık arasında boşluk */
+  box-sizing: border-box; /* Kenar dolgusunu genişliğe dahil et */
 }
