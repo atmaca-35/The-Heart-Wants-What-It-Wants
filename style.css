@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Poppins';
-  src: url('poppins.woff2');
+  font-family: 'Futura';
+  src: url('futura.woff2');
   font-weight: 400;
 }
 
@@ -11,23 +11,19 @@
 
 body {
   background-color: #151515;
-  font-family: Poppins;
+  font-family: Futura;
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100vh;
   margin: 0;
-  overflow-y: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* İçerik ortalanıyor */
-  align-items: center;
-  height: 100vh; /* Görüntüleme alanını kaplıyor */
-  margin: 0;
-  padding: 10px; /* Kenarlıklar için */
-  background-color: #151515;
-  font-family: Poppins, sans-serif;
-  overflow-y: auto; /* Taşma durumunda kaydırma */
+  overflow: hidden;
+}
+.separator {
+  user-select: none; /* Seçilmeyi engeller */
+  text-align: center;
+  margin: 10px 0;
+  color: #f0f0f0;
 }
 
 input {
@@ -36,22 +32,19 @@ input {
   font-size: 17px;
   background: linear-gradient(to bottom, #421924, #682639);
   border: transparent;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   outline: none;
   border-radius: 0 0 10px 10px;
   padding-left: 15px;
   padding-right: 15px;
-  width: 90%; /* Küçük ekranlarda daha iyi uyum sağlar */
-  max-width: 400px; /* Daha büyük ekranlarda sınır */
-  margin-top: 20px;
 }
 
 input:focus{
-  box-shadow: 0 8px 16px rgb(0, 0, 0);
+  box-shadow: 0 8px 16px #000000;
 }
 
 input::placeholder {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   text-align: center;
 }
 
@@ -65,8 +58,22 @@ input:focus::placeholder {
   color: #f0f0f0;
   width: 320px;
   text-align: center;
-  width: 100%; /* Genişlik ekranın tamamını kaplıyor */
-  max-width: 400px; /* Daha büyük ekranlarda sınır */
-  padding: 10px; /* İçerik ve kenarlık arasında boşluk */
-  box-sizing: border-box; /* Kenar dolgusunu genişliğe dahil et */
+}
+
+::selection {
+    background: transparent;
+    text-decoration: underline;
+    color: inherit;
+}
+
+::-moz-selection {
+    background: transparent;
+    text-decoration: underline;
+    color: inherit;
+}
+
+::-ms-selection {
+    background: transparent;
+    text-decoration: underline;
+    color: inherit;
 }
